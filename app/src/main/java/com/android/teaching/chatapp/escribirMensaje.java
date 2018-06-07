@@ -7,6 +7,11 @@ import android.support.v7.widget.ActionBarContainer;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.google.firebase.database.FirebaseDatabase;
 
 public class escribirMensaje extends AppCompatActivity {
 
@@ -17,9 +22,9 @@ public class escribirMensaje extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2); // Conectamos el Layout al objeto Toolbar
         setSupportActionBar(toolbar);
-        ActionBar ab= getSupportActionBar();
+        ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
     }
-
-
 }
+
+
