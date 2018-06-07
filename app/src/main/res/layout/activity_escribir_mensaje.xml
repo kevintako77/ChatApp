@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".escribirMensaje">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar2"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/añadirMensaje"
+        android:layout_below="@+id/toolbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir nuevo mensaje"
+        android:textStyle="bold"
+        android:textColor="@color/negro"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_below="@+id/añadirMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="usuario"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="mensaje"
+        android:layout_centerInParent="true">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:text="Enviar"/>
+
+
+</RelativeLayout>
