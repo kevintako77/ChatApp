@@ -21,19 +21,5 @@ public class escribirMensaje extends AppCompatActivity {
         ab.setDisplayHomeAsUpEnabled(true);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_lista, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.escribirMensaje) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
 }

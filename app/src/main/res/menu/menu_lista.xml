@@ -6,6 +6,5 @@
         android:title="escribirMensaje"
         android:id="@+id/escribirMensaje"
         android:icon="@drawable/ic_action_add"
-        app:showAsAction="ifRoom"
-        android:onClick="abrirmensaje"/>
+        app:showAsAction="ifRoom"/>
 </menu>
